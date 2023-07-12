@@ -30,6 +30,20 @@ body.my-login-page {
 	border-color: transparent;
 	box-shadow: 0 4px 8px rgba(0,0,0,.05);
 }
+.card-wrapper {
+	background-image: url('https://www.freepik.com/free-photos-vectors/nepal-travel');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card {
+	background: transparent;
+	box-shadow: none;
+}
+
+.card-body {
+	background: rgba(255, 255, 255, 0.8);
+}
 
 .my-login-page .card.fat {
 	padding: 10px;

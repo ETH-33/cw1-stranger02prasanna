@@ -133,6 +133,7 @@ p,li{
     border-radius: 4rem;
     padding: 1em 1.3em;
     margin: 1.5em;
+    
 }
 
 .button-primary:hover{
@@ -150,10 +151,13 @@ p,li{
     padding: 0.5em 1.2em;
     margin: 2rem 0rem;
     border: 2px solid #e63946;
+    transition: background-color 1s ease; color: 1s ease;
+    
 }
 
 .button-secondary:hover{
-    background-color: #ffe3e3;
+    background-color:#e63946;
+    color: #f4f4f4;
 }
 
 .header-content{
@@ -457,6 +461,12 @@ p,li{
 
 /* ################## FROM STYLING ################## */
 
+.btn-primary {
+    color: black;
+  }
+
+.btn-primary:hover {
+    color: red; /* Change this to your desired hover color */}
 .form{
     height: 760px;
     font-size: 1.6rem;
@@ -597,18 +607,24 @@ p,li{
         text-align: center;
     }
 
-    .contact-soon p,
+    .contact-soon p{
+        color:#ee4758 ;
+        transition: color 1s ease;
+    }
+    .contact-soon:hover p{
+      filter: invert(100%);
+
+    }
     .contact-soon a{
         float: none;
         width: 100%;
         text-align: center;
         display: block;
+        color:#ee4758 ;
+        transition: color 1s ease;
     }
 
-    .contact-soon a{
-        margin-top: 2rem;
-    }
-
+  
     .form-wrapper .company-address
     {
         float:none;
