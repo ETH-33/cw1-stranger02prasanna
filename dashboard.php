@@ -14,9 +14,7 @@
         <div class="container">
             <h1 class="logo">N.T</h1>
             <ul class="nav-items">
-                <li class="nav-item"><a href="./index.php">Home</a></li>
-                <li class="nav-item"><a href="./about.php">Services</a></li>
-                <li class="nav-item"><a href="./dashboard.php">Dashboard</a></li>
+                <li class="nav-item"><a href="./index.php">Log Out</a></li>                              
             </ul>
         </div>
     </nav>
@@ -28,7 +26,81 @@
                     <div class="card-inner">
                         <div class="card-front">
                             <div class="card-img-top">
-                                <img src="/img/chitwan.jpg" alt="chitwan" />
+                                <img src="img\ktm.jpg" alt="chitwan" />
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-body">
+                                <h5 class="card-title">Durbar Square</h5>
+                                <p>Price: $270</p>
+                                <ul>
+                                <li>&#10004; Bed & Breakfast</li>
+                                 <li>&#10004; City Tour</li>
+                                <li>&#10004; Newari cuisine</li>
+                                <li>&#10004; Cultural Shows</li>
+                                 <li>&#10004; Short hike</li>
+                                </ul>
+                                <a href="cart.html" class="btn-add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-img-top">
+                                <img src="img\paragliding-in-pokhara.jpg" alt="paragliding" />
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-body">
+                                <h5 class="card-title">Sarangkot</h5>
+                                <p>Price: $100</p>
+                                <ul>
+                                    <li>&#10004; Paragliding</li>
+                                    <li>&#10004; Bed & Breakfast</li>
+                                    <li>&#10004; Boating</li>
+                                    <li>&#10004; David Falls</li>
+                                    <li>&#10004; Lake side view</li>
+                                </ul>
+                                <a href="cart.html" class="btn-add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-img-top">
+                                <img src="img\the-main-maya-devi-temple.jpg" alt="the-main-maya" />
+                            </div>
+                        </div>
+                        <div class="card-back">
+                            <div class="card-body">
+                                <h5 class="card-title">Mayadevi</h5>
+                                <p>Price: $130</p>
+                                <ul>
+                                    <li>&#10004; Bed & Breakfast</li>
+                                     <li>&#10004; Museum Visit</li>
+                                      <li>&#10004; Historical Site Visit</li>
+                                      <li>&#10004; Meditation</li>
+                                      <li>&#10004; Cultural Tharu Dance</li>
+                                </ul>
+                                <a href="cart.html" class="btn-add-to-cart">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Repeat the above four card elements for each row -->
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-img-top">
+                                <img src="img\Chitwan-Jungle-Safari-by-Jeep.jpg" alt="chitwan" />
                             </div>
                         </div>
                         <div class="card-back">
@@ -51,19 +123,19 @@
                     <div class="card-inner">
                         <div class="card-front">
                             <div class="card-img-top">
-                                <img src="/img/nn.jpg" alt="chitwan" />
+                                <img src="img\trekking.jpg" alt="trekking" />
                             </div>
                         </div>
                         <div class="card-back">
                             <div class="card-body">
-                                <h5 class="card-title">Mayadevi</h5>
-                                <p>Price: $130</p>
+                                <h5 class="card-title">Everest Base Camp</h5>
+                                <p>Price: $1100</p>
                                 <ul>
-                                    <li>&#10004; Bed & Breakfast</li>
-                                     <li>&#10004; Museum Visit</li>
-                                      <li>&#10004; Historical Site Visit</li>
-                                      <li>&#10004; Meditation</li>
-                                      <li>&#10004; Cultural Tharu Dance</li>
+                                    <li>&#10004; Trekking</li>
+                                     <li>&#10004; Home Stay</li>
+                                      <li>&#10004; Helicopter upto Solukhumbu</li>
+                                      <li>&#10004; Glacier hike</li>
+                                      <li>&#10004; Tradition Food</li>
                                 </ul>
                                 <a href="cart.html" class="btn-add-to-cart">Add to Cart</a>
                             </div>
@@ -74,19 +146,19 @@
                     <div class="card-inner">
                         <div class="card-front">
                             <div class="card-img-top">
-                                <img src="/img/pokhara.jpg" alt="chitwan" />
+                                <img src="img\Bungee-Jumping-in-Pokhara (1).jpg" alt="bungee" />
                             </div>
                         </div>
                         <div class="card-back">
                             <div class="card-body">
-                                <h5 class="card-title">Sarangkot</h5>
-                                <p>Price: $100</p>
+                                <h5 class="card-title">Bungee</h5>
+                                <p>Price: $230</p>
                                 <ul>
+                                    <li>&#10004; Bungee</li>
+                                    <li>&#10004; Rafting</li>
                                     <li>&#10004; Bed & Breakfast</li>
-                                     <li>&#10004; Boating</li>
-                                     <li>&#10004; Paragliding</li>
-                                    <li>&#10004; David Falls</li>
-                                    <li>&#10004; Lake side view</li>
+                                    <li>&#10004; Camping & BBQ</li>
+                                    <li>&#10004; ATV ride</li>
                                 </ul>
                                 <a href="cart.html" class="btn-add-to-cart">Add to Cart</a>
                             </div>
@@ -94,7 +166,7 @@
                     </div>
                 </div>
                 
-                <!-- Repeat the above four card elements for each row -->
+                
             </div>
         </div>
     </section>

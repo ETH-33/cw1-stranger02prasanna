@@ -37,7 +37,7 @@
             <div class="card-container">
                 <div class="card">
                   <div class="card-img-top">
-                    <img src="/img/ktm.jpg" alt="ktm" />
+                    <img src="img\ktm.jpg" alt="ktm" />
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Durbar Squares</h5>
@@ -52,13 +52,13 @@
                       </ul>
                       
                 
-                    <a href="/login.php" class="btn btn-primary text-color">View Package</a>
+                    <a href="./login.php" class="btn btn-primary text-color">View Package</a>
                   </div>
                 </div>
               
                 <div class="card">
                   <div class="card-img-top">
-                    <img src="/img/para.jpg" alt="paragliding"/>
+                    <img src="img\paragliding-in-pokhara.jpg" alt="paragliding"/>
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Sarangkot</h5>
@@ -70,14 +70,14 @@
                         <li>&#10004; David Falls</li>
                         <li>&#10004; Lake side view</li>
                       </ul>
-                      <a href="/login.php" class="btn btn-primary text-color ">View Package</a>
+                      <a href="./login.php" class="btn btn-primary text-color ">View Package</a>
                   </div>
                 </div>
               </div>
               <div class="card-container">
                 <div class="card">
                   <div class="card-img-top">
-                    <img src="/img/the-main-maya-devi-temple.jpg" alt="Mayadevi" />
+                    <img src="img\the-main-maya-devi-temple.jpg" alt="Mayadevi" />
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Mayadevi Temple</h5>
@@ -89,13 +89,13 @@
                         <li>&#10004; Cultural Tharu Dance</li>
                       </ul>
                       
-                    <a href="/login.php" class="btn btn-primary text-color">View Package</a>
+                    <a href="./login.php" class="btn btn-primary text-color">View Package</a>
                   </div>
                 </div>
               
                 <div class="card">
                   <div class="card-img-top">
-                    <img src="/img/chitwan.jpg" alt="chitwan" />
+                    <img src="img\chitwan.jpg" alt="chitwan" />
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Jungle Safari</h5>
@@ -106,8 +106,7 @@
                         <li>&#10004; Wetland Visit</li>
                         <li>&#10004; Camping</li>
                         <li>&#10004; Cultural Tharu Dance</li>
-                      </ul><a href="/login.php
-                      " class="btn btn-primary text-color">View Package</a>
+                      </ul><a href="./login.php" class="btn btn-primary text-color">View Package</a>
                   </div>
                 </div>
               </div>

@@ -56,7 +56,7 @@
         <div class="container">
             <div class="row row1">
                 <div class="img-box">
-                <img src="<?php echo dirname(__FILE__) . '/img/kathmandu.jpg'; ?>" alt="kathmandu">
+                <img src="./img/kathmandu.jpg" alt="kathmandu">
 
                 </div>
                 <div class="text-box">
@@ -67,7 +67,7 @@
             </div>
             <div class="row row2">
                 <div class="img-box">
-                    <img src="./img/pokhara.jpg" alt="Tree" style="cursor: ;">
+                    <img src="./img/pokhara.jpg" alt="pokhara">
                 </div>
                 <div class="text-box">
                     <h2>Pokhara, Nepal</h2>
@@ -84,7 +84,7 @@
             <br>
             <div class="row row1">
                 <div class="img-box">
-                    <img src="./img/nn.jpg" alt="Research Centre">
+                    <img src="./img/nn.jpg" alt="nn">
                 </div>
                 <div class="text-box">
                     <h2>Lumbini, Nepal</h2>
@@ -196,7 +196,4 @@
     </footer>
 </body>
 </html>
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-?>
+
