@@ -25,10 +25,9 @@
 
                 <h1 class="logo">N.T</h1>
                 <ul class="nav-items">
-                <li class="nav-item"><a href="./index.html">Home</a></li>
-                <li class="nav-item"><a href="./about.html">Services</a></li>
-                
-                <li class="nav-item"><a href="./my-login.html">Sign Up / Login</a></li>
+                <li class="nav-item"><a href="./index.php">Home</a></li>
+                <li class="nav-item"><a href="./about.php">Services</a></li>
+                <li class="nav-item"><a href="./login.php">Sign Up / Login</a></li>
             </ul>
             </div>
         </nav>
@@ -53,13 +52,13 @@
                       </ul>
                       
                 
-                    <a href="/my-login.html" class="btn btn-primary text-color">View Package</a>
+                    <a href="/login.php" class="btn btn-primary text-color">View Package</a>
                   </div>
                 </div>
               
                 <div class="card">
                   <div class="card-img-top">
-                    <img src="/img/paragliding-in-pokhara.jpg" alt="paragliding"/>
+                    <img src="/img/para.jpg" alt="paragliding"/>
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Sarangkot</h5>
@@ -71,7 +70,7 @@
                         <li>&#10004; David Falls</li>
                         <li>&#10004; Lake side view</li>
                       </ul>
-                      <a href="/my-login.html" class="btn btn-primary text-color ">View Package</a>
+                      <a href="/login.php" class="btn btn-primary text-color ">View Package</a>
                   </div>
                 </div>
               </div>
@@ -82,7 +81,6 @@
                   </div>
                   <div class="card-body">
                     <h5 class="card-title">Mayadevi Temple</h5>
-                    <p class="card-text">Visit to Mayadevi Temple and World Peace Pagoda. With ancient pond of Mayadevi Temple and Tilaurakot Durbar.</p>
                     <ul>
                         <li>&#10004; Bed & Breakfast</li>
                         <li>&#10004; Museum Visit</li>
@@ -91,7 +89,7 @@
                         <li>&#10004; Cultural Tharu Dance</li>
                       </ul>
                       
-                    <a href="/my-login.html" class="btn btn-primary text-color">View Package</a>
+                    <a href="/login.php" class="btn btn-primary text-color">View Package</a>
                   </div>
                 </div>
               
@@ -108,7 +106,8 @@
                         <li>&#10004; Wetland Visit</li>
                         <li>&#10004; Camping</li>
                         <li>&#10004; Cultural Tharu Dance</li>
-                      </ul><a href="/my-login.html" class="btn btn-primary text-color">View Package</a>
+                      </ul><a href="/login.php
+                      " class="btn btn-primary text-color">View Package</a>
                   </div>
                 </div>
               </div>
@@ -118,7 +117,7 @@
                 </div>
 
                 <div>
-                    <a href="./my-login.html">Click Here</a>
+                    <a href="./login.php">Click Here</a>
                 </div>
             </div>
               </div>

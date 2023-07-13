@@ -17,10 +17,11 @@
 
                 <h1 class="logo">N.T</h1>
                 <ul class="nav-items">
-                <li class="nav-item"><a href="./index.html">Home</a></li>
-                <li class="nav-item"><a href="./about.html">Services</a></li>
+                <li class="nav-item"><a href="./index.php">Home</a></li>
+                <li class="nav-item"><a href="./about.php">Services</a></li>
+                
            
-                <li class="nav-item"><a href="./my-login.html">Sign Up / Login</a></li>
+                <li class="nav-item"><a href="./login.php">Sign Up / Login</a></li>
             </ul>
 
             </div>
@@ -55,12 +56,13 @@
         <div class="container">
             <div class="row row1">
                 <div class="img-box">
-                    <img src="./img/kathmandu.jpg" alt="Research Centre">
+                <img src="<?php echo dirname(__FILE__) . '/img/kathmandu.jpg'; ?>" alt="kathmandu">
+
                 </div>
                 <div class="text-box">
                     <h2>Kathmandu, Nepal</h2>
                     <p>Kathmandu, the capital of Nepal, is a city of contrasts. It is a bustling metropolis with a rich history and culture, and it is also a gateway to the stunning Himalayas. Visitors to Kathmandu can explore ancient temples and palaces, wander through bustling markets, and hike to stunning viewpoints.</p>
-                <p><a href="./about.html" class="button-secondary">More</a></p>
+                <p><a href="./about.php" class="button-secondary">More</a></p>
                 </div>
             </div>
             <div class="row row2">
@@ -70,7 +72,7 @@
                 <div class="text-box">
                     <h2>Pokhara, Nepal</h2>
                     <p>Pokhara, Nepal is a city of natural beauty and adventure. It is located in the foothills of the Himalayas, and is surrounded by stunning mountains, lakes, and rivers. Pokhara is a popular destination for trekking, mountaineering, whitewater rafting, and kayaking. It is also home to a number of cultural attractions, including temples, monasteries, and traditional villages.</p>
-                <p><a href="./about.html" class="button-secondary">More</a></p>
+                <p><a href="./about.php" class="button-secondary">More</a></p>
                 </div>
             </div>
             <br>
@@ -87,7 +89,7 @@
                 <div class="text-box">
                     <h2>Lumbini, Nepal</h2>
                     <p>Lumbini is the birthplace of Gautama Buddha, the founder of Buddhism. It is a UNESCO World Heritage Site and one of the holiest places in the world for Buddhists. The main attractions in Lumbini include the Mayadevi Temple, the Ashoka Pillar, and the Lumbini Garden.<p>
-                    <a href="./about.html" class="button-secondary">More</a></p>
+                    <a href="./about.php" class="button-secondary">More</a></p>
                 </div>
                     
         </div>
@@ -98,7 +100,7 @@
             <div class="text-box">
                 <h2>Chitwan, Nepal</h2>
                 <p>Chitwan National park is surrounded by rivers and forests, and is home to a variety of plants and animals. Chitwan is a great place to experience the natural beauty of Nepal and to learn about the country's wildlife. It is home to a variety of wildlife, including rhinos, tigers, elephants, and deer. Chitwan is also a great place to go on jungle safaris, birdwatching, and hiking. </p>
-            <p><a href="./about.html" class="button-secondary">More</a></p>
+            <p><a href="./about.php" class="button-secondary">More</a></p>
             </div>
                 
     </div>
@@ -109,7 +111,7 @@
                 <div class="text-box">
                     <h2>Bhote Koshi, Nepal</h2>
                     <p>Bungee jumping activity found its first ever spot at the Bhote Koshi gorge in Nepal. And now it is one of the most famous spots for bungee jumping in the whole world. The gorge is located near Nepal-Tibet border and has a height of 160 meters. What makes it special is the fact that is the highest bungee jumping in Nepal as well as the world. <p>
-                    <a href="./about.html" class="button-secondary">More</a></p>
+                    <a href="./about.php" class="button-secondary">More</a></p>
                 </div>
                      </div>
             
@@ -194,3 +196,7 @@
     </footer>
 </body>
 </html>
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
