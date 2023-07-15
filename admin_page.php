@@ -29,7 +29,7 @@ if (isset($_GET['delete_user'])) {
    header('location:admin_page.php');
    exit;
 }
-?>
+?> 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -40,6 +40,7 @@ if (isset($_GET['delete_user'])) {
    <title>Admin Panel</title>
 
    <link rel="stylesheet" href="css\login.css">
+   
 </head>
 <body>
    <div class="container">
@@ -47,8 +48,9 @@ if (isset($_GET['delete_user'])) {
          <h3>hi, <span>admin</span></h3>
          <h1>welcome <span><?php echo $_SESSION['admin_name'] ?></span></h1>
          <p>This is an admin page</p>
-        </div>
-
+         <button class="gradient-button"><a href="./logout.php">Log Out</a></button>
+      </div>
+     
       <div class="user-list">
          <h2>User List</h2>
          <table>
@@ -76,7 +78,6 @@ if (isset($_GET['delete_user'])) {
             ?>
          </table>
       </div>
-
       <div class="add-user-form">
          <h2>Add User</h2>
          <form action="" method="post">

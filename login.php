@@ -49,6 +49,7 @@ if(isset($_POST['submit'])){
          <input type="password" name="password" required placeholder="Enter your password">
          <input type="submit" name="submit" value="Login Now" class="form-btn">
          <p>Don't have an account? <a href="register.php">Register now</a></p>
+         <button class="gradient-button"><a href="./index.php">Back To Home</a></button>
       </form>
    </div>
 </body>

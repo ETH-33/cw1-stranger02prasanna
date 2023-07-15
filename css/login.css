@@ -61,6 +61,15 @@
    background: crimson;
 }
 
+.gradient-button {
+   background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+   color: #f4f4f4;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px; /* Adjust the value to make the edges more or less rounded */
+   cursor: pointer;
+   font-size: 16px;
+ }
 .form-container{
    min-height: 100vh;
    display: flex;
@@ -133,3 +142,12 @@
    font-size: 20px;
    padding:10px;
 }
+.gradient-button {
+   background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+   color: #f4f4f4;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   font-size: 16px;
+ }

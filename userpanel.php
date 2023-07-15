@@ -1,3 +1,12 @@
+<?php
+include('config.php');
+session_start();
+
+if (!isset($_SESSION['user_name'])) {
+   header('location:login.php');
+   
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -76,7 +85,7 @@
       <div class="container">
          <h1 class="logo">N.T</h1>
          <ul class="nav-items">
-            <li class="nav-item"><a href="./index.php">Log Out</a></li>
+            <li class="nav-item"><a href="./logout.php">Log Out</a></li>
          </ul>
       </div>
    </nav>
