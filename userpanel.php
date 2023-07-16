@@ -1,4 +1,5 @@
 <?php
+define('access',true);
 include('config.php');
 session_start();
 

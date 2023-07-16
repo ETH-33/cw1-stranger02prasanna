@@ -17,15 +17,15 @@
 # password cannot be seen in plain text in database as it is hashed with md5
 
 
-Auth Cred
+# Auth Cred
 
 ## Role Users
 - Admin
-# username=admin@gmail.com
-# password= <4 space>
+### username=admin@gmail.com
+### password= <4 s>
 - User
-# username=user@gmail.com
-# password= <4 space>
+### username=user@gmail.com
+### password= <4 spaces>
 
-# username=u@gmail.com
-# password= <4 space>
+### username=u@gmail.com
+### password= <4 spaces>

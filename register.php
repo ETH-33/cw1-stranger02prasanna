@@ -1,5 +1,5 @@
 <?php
-
+define('access',true);
 @include 'config.php';
 
 if(isset($_POST['submit'])){
