@@ -6,8 +6,8 @@ session_start();
 
 if (!isset($_SESSION['admin_name'])) {
    header('location:login.php');
-   exit;
 }
+
 
 // Add user
 if (isset($_POST['add_user'])) {
@@ -30,6 +30,7 @@ if (isset($_GET['delete_user'])) {
    header('location:admin_page.php');
    exit;
 }
+
 ?> 
 
 <!DOCTYPE html>
